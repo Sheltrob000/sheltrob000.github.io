@@ -18,11 +18,18 @@ div.hello {
   width: 90%;
   text-align: start;
 
+  margin-top: 10px;
   padding-left: 20px;
   padding-right: 10px;
   padding-top: 1px;
   padding-bottom: 1px;
 }
+
+div.contentholder{
+  background-color: #1a1a1a;
+}
+
+
 div {
   margin: auto;
   text-align: center;

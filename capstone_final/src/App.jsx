@@ -5,7 +5,6 @@ import Counter from "./components/Counter.jsx";
 
 
 function App() {
-    const [page, setpage] = useState("home")
     return (
         <>
             {/*<NavPage page={page} setpage={setpage}/>*/}
