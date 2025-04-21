@@ -1,8 +1,11 @@
 
 export default function NavPage() {
     return(
-        <div class = "hello">
-            <p>hellooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo</p>
+        <div className={"hello"}>
+            <button className={"navpage"}>home</button>
+            <button className={"navpage"}>wiki</button>
+            <button className={"navpage"}>map</button>
+
         </div>
     )
 }

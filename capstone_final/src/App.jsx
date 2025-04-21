@@ -5,10 +5,10 @@ import Counter from "./components/Counter.jsx";
 
 
 function App() {
-    const [count, setCount] = useState(0)
-
+    const [page, setpage] = useState("home")
     return (
         <>
+            {/*<NavPage page={page} setpage={setpage}/>*/}
             <NavPage/>
             <Counter/>
         </>
