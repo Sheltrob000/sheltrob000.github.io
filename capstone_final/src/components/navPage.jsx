@@ -1,8 +1,8 @@
 import {useState} from "react";
+import Real_Page from "./Real_Page.jsx";
 
 export default function NavPage() {
     const [page, setPage] = useState("home")
-    const handleSetPage = (pagechange) =>setPage(pagechange)
 
 
     return(
@@ -11,10 +11,13 @@ export default function NavPage() {
                 <button className={"navpage"} onClick={() => setPage("home")}>home</button>
                 <button className={"navpage"} onClick={() => setPage("wiki")}>wiki</button>
                 <button className={"navpage"} onClick={() => setPage("map")}>map</button>
-                <button className={"navpage"} onClick={() => console.log("hello")}>hello</button>
+                <button className={"navpage"} onClick={() => setPage("join")}>join</button>
             </div>
 
-            <p>{page}</p>
+            <h1>{page}</h1>
+
+            <Real_Page string={page}/>
+
 
         </>
 
