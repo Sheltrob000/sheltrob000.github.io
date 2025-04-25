@@ -14,6 +14,12 @@ button.counter{
   box-shadow: 3px 3px 6px black;
 }
 
+button.bluebutton{
+  background-color: #0d1a21;
+  box-shadow: 3px 3px 6px black;
+  width: 50%;
+}
+
 
 
 div.hello {

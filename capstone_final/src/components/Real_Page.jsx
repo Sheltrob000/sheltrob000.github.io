@@ -5,16 +5,16 @@ import Join from "./navigationComponents/join.jsx";
 
 export default function Real_Page({string}){
     console.log(string)
-    if (string === "home"){
+    if (string === "Home"){
         return(<Home/>)
     }
-    else if(string === "wiki"){
+    else if(string === "Wiki"){
         return (<Wiki/>)
     }
-    else if(string === "map"){
+    else if(string === "Map"){
         return (<Map/>)
     }
-    else if(string === "join"){
+    else if(string === "Join"){
         return (<Join/>)
     }
 

@@ -8,10 +8,10 @@ export default function NavPage() {
     return(
         <>
             <div className={"hello"}>
-                <button className={"navpage"} onClick={() => setPage("home")}>home</button>
-                <button className={"navpage"} onClick={() => setPage("wiki")}>wiki</button>
-                <button className={"navpage"} onClick={() => setPage("map")}>map</button>
-                <button className={"navpage"} onClick={() => setPage("join")}>join</button>
+                <button className={"navpage"} onClick={() => setPage("Home")}>Home</button>
+                <button className={"navpage"} onClick={() => setPage("Wiki")}>Wiki</button>
+                <button className={"navpage"} onClick={() => setPage("Map")}>Map</button>
+                <button className={"navpage"} onClick={() => setPage("Join")}>Join</button>
             </div>
 
             <h1>{page}</h1>
