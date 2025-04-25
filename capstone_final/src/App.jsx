@@ -9,7 +9,10 @@ function App() {
         <>
             {/*<NavPage page={page} setpage={setpage}/>*/}
             <NavPage/>
-            <Counter/>
+
+            <div className={"counterholder"}>
+                <Counter/>
+            </div>
         </>
     )
 }

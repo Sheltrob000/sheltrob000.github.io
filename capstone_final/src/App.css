@@ -9,6 +9,11 @@ button.navpage{
 
 }
 
+button.counter{
+  background-color: #0d1a21;
+  box-shadow: 3px 3px 6px black;
+}
+
 
 
 div.hello {
@@ -29,8 +34,11 @@ div.hello {
 div.contentholder{
   background-color: #1a1a1a;
   width: 60%;
+  min-height: 400px;
+  align-content: center;
   border-radius: 10px;
   box-shadow: 3px 3px 5px black;
+  margin-bottom: 50px;
 
 
 }
@@ -44,6 +52,18 @@ div {
 /*  margin: auto;*/
 /*}*/
 
+div.counterholder {
+  background-color: #1a1a1a;
+  margin: 10px;
+  width: fit-content;
+
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px black;
+  padding: 5px;
+  position: fixed;
+  bottom: 0px;
+}
+
 h1{
   color: cyan;
   box-shadow: 3px 3px 5px black;
@@ -51,6 +71,7 @@ h1{
   width: fit-content;
   margin: auto;
   margin-top: 10px;
+  margin-bottom: 10px;
   padding: 10px;
   border-radius: 10px;
 }
@@ -58,4 +79,24 @@ h1{
 img{
   width: 80%;
   border-radius: 10px;
+}
+img:hover{
+  /*animation-name: bigger;*/
+  /*animation-duration: .5s;*/
+  /*animation-timing-function: ease-in;*/
+  /*width: 80%;*/
+  transition-timing-function: ease-in;
+  transition-duration: .2s;
+  transform: scale(1.01);
+}
+
+
+
+
+
+@keyframes bigger {
+  from{width: 80%}
+  to{width: 90%}
+
+
 }

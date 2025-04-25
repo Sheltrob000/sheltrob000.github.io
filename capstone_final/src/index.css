@@ -56,6 +56,9 @@ button {
 button:hover {
   border-color: black;
   background-color: black;
+  transition-timing-function: ease-in;
+  transition-duration: .5s;
+  transform: scale(1.1);
 }
 button:focus,
 button:focus-visible {

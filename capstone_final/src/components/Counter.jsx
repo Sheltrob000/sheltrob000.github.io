@@ -8,8 +8,10 @@ const ClickCounter = () => {
     }
     return(
         <>
-            <button onClick={handleClick}>button yay</button>
-            <p>the count id {count}</p>
+            <button onClick={handleClick} className={"counter"}>show excitment</button>
+            <p>you are {count} excited</p>
+            <p>yes this value represents nothing</p>
+            <p>but its fun though</p>
 
         </>
     )
