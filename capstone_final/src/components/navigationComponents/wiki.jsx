@@ -34,8 +34,16 @@ export default function Wiki() {
             {
                 loader === "lore" ?
                     <div className={"hello"}>
-                        <p>hello</p>
-                        <p>hello</p>
+                        <p>Here are some lore snipits that chat GPT - I mean I created</p>
+                        <p>"Tiny and fast, these corrupted larvae erupt from fungus-covered pods. They're not born from eggs, but grown from decay. It is said that each Blightling holds a flicker of a forgotten voice."</p>
+                        <p>"Once foragers of the Rotfen, the Skittermires now march in erratic patterns, their limbs clicking in feverish rhythm. The spores in their skulls seem to drive them forward—not with hunger, but with memory."</p>
+                        <p>"He wandered into the Whispering Thicket long before it was named. Back then, he brought joy—gathering mushrooms and leaving them on villagers’ doorsteps. Now, twisted by the Sporewake, his body is more mushroom than man. His laughter echoes through the forest—warm, childlike, and very wrong."</p>
+                        <p>"Drawn to the scent of undisturbed death, the Gravegnat flutters in slow, looping spirals above old tombs. Not hostile by instinct, it becomes violent when startled—releasing clouds of dust said to contain the voices of the forgotten."</p>
+                        <p>"Blind, legless things that burrow through the ashen grounds of long-dead forests. The Dustcrawler feeds not on flesh, but on memory—sapping the will of travelers until they forget why they came."</p>
+                        <p>"Towering and unmoving until disturbed, this armored sentinel guards the Brood Nest—a cradle of young Blightlings. Few survive its awakening; fewer still forget the sound it makes when it breathes."</p>
+                        <p>"Buried deep beneath the fungal caverns, this ancient thing was once a shrine guardian. The Sporewake did not corrupt it—only awakened its endless hunger. Its jaw unhinges across its chest, and it speaks in sighs."</p>
+                        <p>"Once guardians of sacred fungus groves, the Spinecreeps were noble. Now, warped and shell-shattered, they wander in silence, impaling all who stray too close with their exposed marrow-blades."</p>
+                        <p>"Not a being, but a knowing. It spreads without will, infecting not only bodies, but choices. Entire hives once loyal to their queens now kneel to nothing but the roots in their skulls."</p>
                     </div>
                     :
                     null
