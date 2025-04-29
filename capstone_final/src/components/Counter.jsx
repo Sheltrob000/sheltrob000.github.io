@@ -9,7 +9,7 @@ const ClickCounter = () => {
     return(
         <>
             <button onClick={handleClick} className={"counter"}>show excitment</button>
-            <p>you are {count} excited</p>
+            <p>you are {count}x excited</p>
             <p>yes this value represents nothing</p>
             <p>but its fun though</p>
 

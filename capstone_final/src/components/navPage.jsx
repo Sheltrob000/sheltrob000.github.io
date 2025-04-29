@@ -2,7 +2,7 @@ import {useState} from "react";
 import Real_Page from "./Real_Page.jsx";
 
 export default function NavPage() {
-    const [page, setPage] = useState("home")
+    const [page, setPage] = useState("Home")
 
 
     return(

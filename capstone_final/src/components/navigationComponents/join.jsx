@@ -1,4 +1,16 @@
 export default function Join(){
+    let email = "";
+    let announcegeneral = false
+    let announcerelease = false
+
+
+
+    function handleSubmit() {
+        email = document.getElementById("fname").innerHTML
+        announcegeneral = document.getElementById("ealrlyAnnounce").innerHTML
+        announcerelease = document.getElementById("fullRealase").innerHTML
+
+    }
     return(
 
         <>
@@ -8,15 +20,15 @@ export default function Join(){
 
                 <br/>
 
-                <form>
+                <form onSubmit={handleSubmit} name={"emailList"}>
                     <label>email</label>
                     <br/>
                     <input type="email" id="fname" name="fname"/>
                     <br/>
-                    <input type={"checkbox"}/>
+                    <input type={"checkbox"} id={"ealrlyAnnounce"} name={"ealrlyAnnounce"}/>
                     <label>send announcements like early releases</label>
                     <br/>
-                    <input type={"checkbox"}/>
+                    <input type={"checkbox"} id={"fullRealase"} name={"fullRealase"}/>
                     <label> announce when the full game is released</label>
                     <br/>
                     <input type={"submit"}/>

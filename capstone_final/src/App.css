@@ -17,6 +17,7 @@ button.counter{
 button.bluebutton{
   background-color: #0d1a21;
   box-shadow: 3px 3px 6px black;
+  /*margin-bottom: 0px;*/
   width: 50%;
 }
 
@@ -40,6 +41,7 @@ div.hello {
 div.contentholder{
   background-color: #1a1a1a;
   width: 60%;
+  padding-bottom: 50px;
   min-height: 400px;
   align-content: center;
   border-radius: 10px;
