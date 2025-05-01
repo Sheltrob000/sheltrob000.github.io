@@ -19,6 +19,11 @@ button.counter {
     box-shadow: 0px 0px 100px black;
     transition: text-shadow .5s ease;
 }
+button.counter:hover{
+    animation: spin 1s linear infinite;
+    box-shadow: 0px 0px 100px cyan;
+
+}
 
 button.bluebutton {
     background-color: #0d1a21;
@@ -146,4 +151,12 @@ li:hover {
     }
 
 
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
