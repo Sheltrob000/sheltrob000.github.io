@@ -1,110 +1,149 @@
 #root {
-  /*margin: 0 auto;*/
-  /*text-align: center;*/
+    /*margin: 0 auto;*/
+    /*text-align: center;*/
 
 }
 
-button.navpage{
-  box-shadow: 1px 1px 5px #1f1f34;
-
+button.navpage {
+    box-shadow: 1px 1px 5px #1f1f34;
+    text-shadow: 3px 3px 10px transparent;
+    transition: text-shadow .5s ease;
+    background-color: #1a1a1a;
+}
+button:hover{
+    text-shadow: 3px 3px 10px whitesmoke;
 }
 
-button.counter{
-  background-color: #0d1a21;
-  box-shadow: 3px 3px 6px black;
+button.counter {
+    background-color: #0d1a21;
+    box-shadow: 0px 0px 100px black;
+    transition: text-shadow .5s ease;
 }
 
-button.bluebutton{
-  background-color: #0d1a21;
-  box-shadow: 3px 3px 6px black;
-  /*margin-bottom: 0px;*/
-  width: 50%;
+button.bluebutton {
+    background-color: #0d1a21;
+    box-shadow: 3px 3px 6px black;
+    transition: text-shadow .5s ease;
+    /*margin-bottom: 0px;*/
+    width: 50%;
 }
-
 
 
 div.hello {
-  color: #1a1a1a;
-  background-color: darkcyan;
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px black ;
-  width: 90%;
-  text-align: start;
+    color: #1a1a1a;
+    background-color: darkcyan;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    width: 90%;
+    text-align: start;
 
-  margin-top: 10px;
-  padding-left: 20px;
-  padding-right: 10px;
-  padding-top: 1px;
-  padding-bottom: 1px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
-div.contentholder{
-  background-color: #1a1a1a;
-  width: 60%;
-  padding-bottom: 50px;
-  min-height: 400px;
-  align-content: center;
-  border-radius: 10px;
-  box-shadow: 3px 3px 5px black;
-  margin-bottom: 50px;
+div.contentholder {
+    background-color: #1a1a1a;
+    width: 60%;
+    padding-bottom: 50px;
+    min-height: 400px;
+    align-content: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+    margin-bottom: 50px;
 
 
 }
 
 
 div {
-  margin: auto;
-  text-align: center;
+    margin: auto;
+    text-align: center;
 }
+
 /*button {*/
 /*  margin: auto;*/
 /*}*/
 
 div.counterholder {
-  background-color: #1a1a1a;
-  margin: 10px;
-  width: fit-content;
+    background-color: #1a1a1a;
+    margin: 10px;
+    width: fit-content;
 
-  border-radius: 10px;
-  box-shadow: 3px 3px 5px black;
-  padding: 5px;
-  position: fixed;
-  bottom: 0px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+    padding: 5px;
+    position: fixed;
+    bottom: 0px;
 }
 
-h1{
-  color: cyan;
-  box-shadow: 3px 3px 5px black;
-  background-color: #1a1a1a;
-  width: fit-content;
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 10px;
-  border-radius: 10px;
+h1 {
+    color: cyan;
+    box-shadow: 3px 3px 5px black;
+    text-shadow: 3px 3px 10px transparent;
+    transition: text-shadow .5s ease;
+    background-color: #1a1a1a;
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
-img{
-  width: 80%;
-  border-radius: 10px;
-}
-img:hover{
-  /*animation-name: bigger;*/
-  /*animation-duration: .5s;*/
-  /*animation-timing-function: ease-in;*/
-  /*width: 80%;*/
-  transition-timing-function: ease-in;
-  transition-duration: .2s;
-  transform: scale(1.01);
+h1:hover {
+    text-shadow: 3px 3px 10px cyan;
+
 }
 
+img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+img.player {
+    width: 20%;
+    transition: filter .1s ease-in;
+}
+
+img.player:hover {
+    transition-timing-function: ease-in;
+    transition-duration: .1s;
+    transform: scale(1.1);
+    filter: drop-shadow(0px 0px 20px cyan);
+}
 
 
+img:hover {
+    /*animation-name: bigger;*/
+    /*animation-duration: .5s;*/
+    /*animation-timing-function: ease-in;*/
+    /*width: 80%;*/
+    transition-timing-function: ease-in;
+    transition-duration: .2s;
+    transform: scale(1.01);
+}
+
+/*p:hover{*/
+/*  transition-duration: .3s;*/
+/*  transform: scale(1.01);*/
+/*}*/
+li:hover {
+    transition-duration: .3s;
+    transform: scale(1.01);
+    text-shadow: 3px 3px 10px black;
+}
 
 
 @keyframes bigger {
-  from{width: 80%}
-  to{width: 90%}
+    from {
+        width: 80%
+    }
+    to {
+        width: 90%
+    }
 
 
 }
